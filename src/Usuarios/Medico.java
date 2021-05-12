@@ -25,8 +25,8 @@ public class Medico extends Usuario{
 		this._Consulta = consulta;
 	}
 	@Override
-	public void addReceta(Receta receta) {//a�ade receta a un paciente (se usara mas tarde)
-		// TODO Auto-generated method stub
+	public void addReceta(Receta receta) {//añade receta a un paciente (se usara mas tarde)
+		
 		
 	}
     

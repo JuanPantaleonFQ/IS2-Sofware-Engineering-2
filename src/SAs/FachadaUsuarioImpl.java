@@ -1,9 +1,8 @@
-package SAs;
+
 
 import java.util.ArrayList;
+import Usuarios.*;
 
-
-import Usuarios.Usuario;
 
 public class FachadaUsuarioImpl  implements IFachadaUsuario{
 	
@@ -23,11 +22,7 @@ public class FachadaUsuarioImpl  implements IFachadaUsuario{
 		
 	}
 
-	@Override
-	public Usuario consulta1Usuario(String id) {
-		
-		return iUsuarios.consulta1Usuario(id);
-	}
+	
 
 	@Override
 	public ArrayList<Usuario> consultaTodos(int num_citas) {
@@ -38,6 +33,14 @@ public class FachadaUsuarioImpl  implements IFachadaUsuario{
 	@Override
 	public void modificaUsuario(Usuario us, String email, String tlf) {
 		  iUsuarios.modificaUsuario(us, email, tlf);	
+	}
+
+	
+
+	@Override
+	public Usuario consulta1Usuario(String id) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
