@@ -1,0 +1,27 @@
+{
+	"Usuarios": [
+
+		{
+			"type": "medico",
+			"datos": {
+				"nombre": "Agustin",
+				"email": "agusbuen@ucm.es",
+				"ID": "Agusbs98",
+				"telefono": "12345678",
+				"especialidad": "medico del amor",
+				"consulta": 12
+							}
+		},
+        {
+            "type": "medico2",
+            "datos": {
+				"nombre": "Pablo",
+				"email": "PabloMedicina@ucm.es",
+				"ID": "pabloClavoUnClavo777",
+				"telefono": "696 969 696",
+				"especialidad": "medico del softwre",
+				"consulta": 13
+							}
+        }
+	]
+}
